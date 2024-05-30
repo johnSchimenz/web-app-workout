@@ -11,9 +11,38 @@
     <div id="global" class="container">Global Container
         <div id="top" class="container">Top Container</div>
         <div id="bottom" class="container">Bottom Container
-            <div id="left-bottom" class="container">Bottom Left Container</div>
+            <div id="left-bottom" class="container">Bottom Left Container
+                <button type="button">Add Exercise</button>
+            </div>
             <div id="right-bottom" class="container">Bottom Right Container</div>
         </div>
+        <dialog id="exercise-modal" class="modal">New Exercise
+            <form action="" method="post">
+                <fieldset>
+                    <legend>New Exercise Info</legend>
+                    <div class="input-container">
+                        <label for="exercise-name">Exercise Name: </label>
+                        <input type="text" name="exercise-name" id="exercise-name" required minlength="1">
+                    </div>
+                    <div class="input-container">
+                        <label for="sets">Sets: </label>
+                        <input type="number" name="sets" id="sets" required minlength="1">
+                    </div>
+                    <div class="input-container">
+                        <label for="reps">Reps: </label>
+                        <input type="number" name="reps" id="reps" required minlength="1">
+                    </div>
+                    <div class="input-container">
+                        <label for="load">Load: </label>
+                        <input type="number" name="load" id="load" required minlength="1">
+                    </div>
+                    <div class="input-container">
+                        <label for="comments">Comments: </label>
+                        <input type="text" name="comments" id="comments" required minlength="1">
+                    </div>
+                </fieldset>
+            </form>
+        </dialog>
     </div>
 </body>
 </html>

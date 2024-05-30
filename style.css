@@ -7,11 +7,3 @@
 #global {
     flex-direction: column;
 }
-
-#top {
-    flex-direction: row;
-}
-
-#bottom {
-    flex-direction: row;
-}
