@@ -1,0 +1,17 @@
+.container{
+    border: solid;
+    border-color: blue;
+    display: flex;
+}
+
+#global {
+    flex-direction: column;
+}
+
+#top {
+    flex-direction: row;
+}
+
+#bottom {
+    flex-direction: row;
+}
